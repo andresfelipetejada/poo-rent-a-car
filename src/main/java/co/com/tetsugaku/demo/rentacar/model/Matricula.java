@@ -13,4 +13,9 @@ public class Matricula implements Serializable {
 	
 	private String ciudad;
 	
+	public Matricula(String numero, String ciudad) {
+		this.numero = numero;
+		this.ciudad = ciudad;
+	}
+
 }

@@ -6,6 +6,7 @@ public class Furgoneta extends VehiculoCarga implements Alquiler {
 	
 	public Furgoneta(Matricula matricula, Double pma) {
 		super(matricula, pma);
+		this.setTipo("Furgoneta");
 	}
 	
 }

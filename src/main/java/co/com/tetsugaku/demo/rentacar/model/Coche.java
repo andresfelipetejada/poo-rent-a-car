@@ -4,6 +4,7 @@ public class Coche extends VehiculoPersona {
 	
 	public Coche(Matricula matricula) {
 		super(matricula);
+		this.setTipo("Coche");
 	}
 	
 }

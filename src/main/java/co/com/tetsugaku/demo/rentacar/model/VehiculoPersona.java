@@ -10,7 +10,7 @@ public abstract class VehiculoPersona extends Vehiculo implements Alquiler {
 	
 	public VehiculoPersona(Matricula matricula) {
 		super(matricula);
-		this.setTipo(TipoTransporte.PERSONA);
+		this.setTransporte(TipoTransporte.PERSONA);
 	}
 	
 	@Override

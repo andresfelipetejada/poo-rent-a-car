@@ -1,0 +1,34 @@
+[
+	{
+		"matricula": {
+			"numero": "GHJ001",
+			"ciudad": "MEDELLIN"
+		},
+		"transporte": "PERSONA",
+		"tipo": "Coche"
+	},
+	{
+		"matricula": {
+			"numero": "BIO656",
+			"ciudad": "MEDELLIN"
+		},
+		"transporte": "PERSONA",
+		"tipo": "Microbus"
+	},
+	{
+		"matricula": {
+			"numero": "TTT656",
+			"ciudad": "CALI"
+		},
+		"transporte": "CARGA",
+		"tipo": "Camion"
+	},
+	{
+		"matricula": {
+			"numero": "POI656",
+			"ciudad": "BOGOTA"
+		},
+		"transporte": "CARGA",
+		"tipo": "Furgoneta"
+	}
+]

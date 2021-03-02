@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  
+spring:
+  application:
+    name: alquiler-vehiculos
+  jackson:
+    serialization:
+      indent-output: true

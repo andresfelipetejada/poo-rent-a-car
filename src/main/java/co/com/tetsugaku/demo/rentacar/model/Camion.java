@@ -3,7 +3,8 @@ package co.com.tetsugaku.demo.rentacar.model;
 public class Camion extends VehiculoCarga {
 	
 	public Camion(Matricula matricula, Double pma) {
-		super(matricula, pma);		
+		super(matricula, pma);
+		this.setTipo("Camion");
 	}
 	
 	@Override

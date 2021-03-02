@@ -12,7 +12,7 @@ public abstract class VehiculoCarga extends Vehiculo implements Alquiler {
 	
 	public VehiculoCarga(Matricula matricula, Double pma) {	
 		super(matricula);
-		this.setTipo(TipoTransporte.CARGA);
+		this.setTransporte(TipoTransporte.CARGA);
 		this.setPma(pma);
 	}
 	
